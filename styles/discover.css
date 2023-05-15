@@ -1,0 +1,36 @@
+.services-main-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+.services-main-section .external-image{
+    width: 30vw;
+    margin-left: 2rem;
+    height: auto;
+    max-width: 350px;
+}
+
+.icon-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    margin-bottom: 2rem;
+
+
+}
+
+.icon:hover{
+    color: darkgray;
+}
