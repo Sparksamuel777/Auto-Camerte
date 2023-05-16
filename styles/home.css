@@ -2,19 +2,44 @@
 .main-header
 {
 display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    background-color: lightpink;
+    height: 60px;
+   
+    margin-right: 5px;
+    margin-left: 5px;
+    
+
+}
+.left-section{
+    width: 75px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.fiat-logo {
+    height: 34px;
+    width: 65px;
+
+}
+
+.middle-section{
+    flex: 1;
+   
+    margin-bottom: -10px
+}
+
+.right-section{
+ width: 550px;
+ 
 }
 
 
 
-
-.home-main-section .img-wrapper{
-
-
-
-
-
-
+.main-nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
