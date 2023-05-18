@@ -1,8 +1,7 @@
-body{
-    font-family: 'Roboto' , sans-serif;
-}
+.auto-cam-body {
+    font-family: 'Roboto', sans-serif;
 
-.middle-section {
-   
-    font-size: 15px;
+
+    margin: 0;
+    padding: 0;
 }
